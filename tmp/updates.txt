@@ -1,0 +1,26 @@
+■1.0.7 updates
+新機能
+ + いいね
+
+バグ修正
+ - フィード、ポピュラー、#prayforjapanで画面移動する場合のレイアウト崩れ
+
+New Features
+ + like
+ 
+Fixes
+ - When switching the photo menu, the screen layout is broken. 
+
+
+■1.0.6 updates
+新機能
+ + 日本語化対応
+ 
+バグ修正
+ - feedにデータがない場合にレイアウトが崩れるのを修正
+
+New Features
+ + Japanese localization
+
+Fixes
+ - The layout of the 'feed' is broken when 'feed' has no data.

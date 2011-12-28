@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">gramtap</string>
+  
+  <string name="button_yes">はい</string>
+  <string name="button_no">いいえ</string>
+  <string name="button_like">♥</string>
+  <string name="button_feed">フィード</string>
+  <string name="button_popular">ポピュラー</string>
+  
+  <string name="activity_title_feed">フィード</string>
+  <string name="activity_title_popular">ポピュラー</string>
+  <string name="activity_title_prayforjapan">#prayforjapan</string>
+  
+  <string name="option_menu_refresh">更新</string>
+  <string name="option_menu_settings">設定</string>
+  
+  <string name="message_login_to_intagram">Instagramへのログインが必要です。ログインしますか？</string>
+  <string name="message_please_wait">お待ちください...</string>
+  <string name="message_another_account_login">他のアカウントでログインしますか？</string>
+  <string name="message_delete_account">「gramta」からアカウントを削除します。よろしいですか？</string>
+  <string name="message_no_data">データがありません。</string>
+  <string name="message_login_successful">ログインしました。</string>
+  <string name="message_see_more">もっと見る...</string>
+  <string name="message_app_uses_new_feature">このバージョンでは「いいね」の機能を使用します。再度ログインをお願いします。</string>
+  <string name="message_requesting_like">いいねリクエスト中...</string>
+  <string name="message_deleting_like">いいね取消リクエスト中...</string>
+
+  <string name="error_message_instagram_request_failed">ERR: Instagramリクエスト失敗</string>
+  <string name="error_message_unexpected_error">予期せぬエラーが発生しました。</string>
+  <string name="error_message_login_failed">ログインに失敗しました。再度試してください。</string>
+  <string name="error_message_like_request_failed">いいねリクエストに失敗しました。</string>
+  <string name="error_message_delete_like_request_failed">いいね取消リクエストに失敗しました。</string>
+
+  <string name="category_title_account">アカウント</string>
+  <string name="category_title_about">アプリについて</string>
+
+  <string name="pref_title_login">ログイン</string>
+  <string name="pref_title_delete_account">アカウント削除</string>
+  <string name="pref_title_version">バージョン</string>
+  
+  <string name="pref_summary_logged_in">ログインしています。</string>
+  <string name="pref_summary_no_login">ログインしていません。</string>
+  
+  <string name="dialog_title_login">ログイン</string>
+  <string name="dialog_title_delete_account">アカウント削除</string>
+  <string name="dialog_title_please_login_again">再度ログインしてください</string>
+  
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="jp.ghostnotes.gramtap.android"
+  android:versionName="1.0.7" android:versionCode="8">
+  <application 
+    android:icon="@drawable/gramtap" 
+    android:label="@string/app_name" android:debuggable="false">
+    <activity
+      android:label="@string/app_name"
+      android:name=".InstagramImageListActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:label="@string/app_name"
+      android:name=".InstagramImageDetailActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.View" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:label="@string/app_name"
+      android:name=".SettingsActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.View" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:label="@string/app_name"
+      android:name=".PopularListActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.View" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:label="@string/app_name"
+      android:name=".XAuthLoginActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.View" />
+      </intent-filter>
+    </activity>
+   </application>
+  <uses-sdk android:minSdkVersion="7"/>
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest> 

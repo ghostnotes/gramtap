@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/image_detail_scroll_view"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center_horizontal">
+  
+  <TextView
+    android:id="@+id/caption"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dip"
+    android:layout_marginLeft="13dip"
+    android:layout_marginRight="13dip"
+    android:visibility="gone" />
+  
+  <TextView
+    android:id="@+id/created_time"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:layout_marginTop="2dip"
+    android:layout_marginRight="7dip"
+    android:textSize="13dip" />
+
+  <LinearLayout
+    android:id="@+id/popular_image_layout"
+    android:layout_width="298dip"
+    android:layout_height="298dip"
+    android:layout_marginTop="3dip"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:visibility="gone">
+    <ImageView
+      android:id="@+id/popular_image"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_margin="2dip"
+      android:scaleType="centerInside" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="5dip">
+    <ImageView
+      android:id="@+id/profile_picture"
+      android:background="#FFFFFF"
+      android:layout_width="28dip"
+      android:layout_height="28dip"
+      android:layout_marginLeft="14dip"
+      android:visibility="gone" />
+    <TextView
+      android:id="@+id/username"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="3dip"
+      android:textSize="15dip"
+      android:text="username"
+      android:visibility="gone" />
+      
+    <TextView
+      android:id="@+id/likes"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:layout_marginRight="14dip"
+      android:textSize="15dip"
+      android:visibility="gone" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/comment_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dip"
+    android:layout_marginLeft="14dip"
+    android:layout_marginRight="14dip"
+    android:layout_marginBottom="20dip">
+  </LinearLayout>
+  
+  <Button
+    android:id="@+id/button_like"
+    android:layout_width="50dip"
+    android:layout_height="32dip"
+    android:layout_marginLeft="14dip"
+    android:layout_marginBottom="20dip"
+    android:text="@string/button_like"
+    android:layout_gravity="left"
+    android:visibility="gone"
+    android:textSize="18dip" />
+
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center_horizontal">
+  
+  <TextView
+    android:id="@+id/caption"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:layout_marginTop="2dip"
+    android:layout_marginLeft="13dip"
+    android:layout_marginRight="13dip"
+    android:visibility="gone" />
+  <TextView
+    android:id="@+id/created_time"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:layout_marginTop="2dip"
+    android:layout_marginRight="7dip"
+    android:textSize="13dip" />
+    
+  <LinearLayout
+    android:id="@+id/instagram_image_layout"
+    android:layout_width="298dip"
+    android:layout_height="298dip"
+    android:layout_marginTop="3dip"
+    android:background="#000000"
+    android:gravity="center">
+    <ImageView
+      android:id="@+id/instagram_image"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_margin="2dip"
+      android:scaleType="centerInside" />
+    <ProgressBar 
+      android:id="@+id/progress_spin"
+      style="?android:attr/progressBarStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:visibility="gone" />
+  </LinearLayout>
+
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="5dip">
+    <ImageView
+      android:id="@+id/profile_picture"
+      android:background="#FFFFFF"
+      android:layout_width="28dip"
+      android:layout_height="28dip"
+      android:layout_marginLeft="14dip" />
+    <TextView
+      android:id="@+id/username"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="3dip"
+      android:textSize="15dip" />
+      
+    <TextView
+      android:id="@+id/likes"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:layout_marginRight="14dip"
+      android:textSize="14dip" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:id="@+id/comment_layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dip"
+    android:layout_marginLeft="14dip"
+    android:layout_marginRight="14dip"
+    android:layout_marginBottom="10dip">
+  </LinearLayout>
+  
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="50dip"
+    android:layout_height="50dip"
+    android:layout_marginTop="5dip"
+    android:layout_marginLeft="14dip"
+    android:layout_gravity="left">
+    <ProgressBar 
+      android:id="@+id/progress_like"
+      style="?android:attr/progressBarStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="3dip"
+      android:layout_gravity="center"
+      android:visibility="gone" />
+    <Button
+      android:id="@+id/button_like"
+      android:layout_width="50dip"
+      android:layout_height="32dip"
+      android:text="@string/button_like"
+      android:textSize="18dip" />
+  </LinearLayout>
+</LinearLayout>

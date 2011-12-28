@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">gramtap</string>
+  
+  <string name="button_yes">YES</string>
+  <string name="button_no">NO</string>
+  <string name="button_like">♥</string>
+  <string name="button_feed">feed</string>
+  <string name="button_popular">popular</string>
+  
+  <string name="activity_title_feed">feed</string>
+  <string name="activity_title_popular">popular</string>
+  <string name="activity_title_prayforjapan">#prayforjapan</string>
+
+  <string name="option_menu_refresh">refresh</string>
+  <string name="option_menu_settings">settings</string>
+  
+  <string name="message_login_to_intagram">You need login to \'Instagram\'.</string>
+  <string name="message_please_wait">please wait...</string>
+  <string name="message_another_account_login">Do you want to Login with another account?</string>
+  <string name="message_delete_account">Are you sure you want to delete account from \'gramtap\'?</string>
+  <string name="message_no_data">No data.</string>
+  <string name="message_login_successful">Login successful.</string>
+  <string name="message_see_more">See more...</string>
+  <string name="message_app_uses_new_feature">This version uses the \'like\' feature. so please login again.</string>
+  <string name="message_requesting_like">requesting like...</string>
+  <string name="message_deleting_like">deleting like...</string>
+
+  <string name="error_message_instagram_request_failed">ERR: Instagram request failed.</string>
+  <string name="error_message_unexpected_error">unexpeted error.</string>
+  <string name="error_message_login_failed">Login failed. Please try again.</string>
+  <string name="error_message_like_request_failed">Like request failed.</string>
+  <string name="error_message_delete_like_request_failed">Delete like request failed.</string>
+
+  <string name="category_title_account">Account</string>
+  <string name="category_title_about">About</string>
+
+  <string name="pref_title_login">Login</string>
+  <string name="pref_title_delete_account">Delete account</string>
+  <string name="pref_title_version">Version</string>
+  
+  <string name="pref_summary_logged_in">Logged in.</string>
+  <string name="pref_summary_no_login">No login</string>
+  
+  <string name="dialog_title_login">Login</string>
+  <string name="dialog_title_delete_account">Delete account</string>
+  <string name="dialog_title_please_login_again">Please login again</string>
+  
+</resources>

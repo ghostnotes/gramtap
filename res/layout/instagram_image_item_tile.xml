@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+    <LinearLayout
+      android:layout_width="72dip"
+      android:layout_height="72dip"
+      android:layout_weight="1"
+      android:background="#000000"
+      android:gravity="center">
+      <ImageView
+        android:id="@+id/image_00"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dip"
+        android:scaleType="centerInside" />
+      <ProgressBar 
+        android:id="@+id/progress_00"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="72dip"
+      android:layout_height="72dip"
+      android:layout_weight="1"
+      android:background="#000000"
+      android:gravity="center">
+      <ImageView
+        android:id="@+id/image_01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dip"
+        android:scaleType="centerInside" />
+      <ProgressBar 
+        android:id="@+id/progress_01"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="72dip"
+      android:layout_height="72dip"
+      android:layout_weight="1"
+      android:background="#000000"
+      android:gravity="center">
+      <ImageView
+        android:id="@+id/image_02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dip"
+        android:scaleType="centerInside" />
+      <ProgressBar 
+        android:id="@+id/progress_02"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="72dip"
+      android:layout_height="72dip"
+      android:layout_weight="1"
+      android:background="#000000"
+      android:gravity="center">
+      <ImageView
+        android:id="@+id/image_03"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dip"
+        android:scaleType="centerInside" />
+      <ProgressBar 
+        android:id="@+id/progress_03"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    </LinearLayout>
+    
+</LinearLayout>
